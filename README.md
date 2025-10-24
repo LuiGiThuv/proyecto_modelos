@@ -13,6 +13,7 @@ Este proyecto permite realizar predicciones de:
 ```bash
 pip install -r requirements.txt
 
+
 ### Respuestas
 
  1) ¿Cuál es el umbral ideal para el modelo de predicción de diabetes?
