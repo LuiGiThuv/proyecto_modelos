@@ -13,7 +13,9 @@ Este proyecto permite realizar predicciones de:
 ```bash
 pip install -r requirements.txt
 
-🧠 1) ¿Cuál es el umbral ideal para el modelo de predicción de diabetes?
+### Respuestas
+
+ 1) ¿Cuál es el umbral ideal para el modelo de predicción de diabetes?
 
 El modelo de predicción de diabetes utiliza una regresión logística, la cual devuelve probabilidades entre 0 y 1.
 Por defecto, el umbral de clasificación suele ser 0.5, es decir:
