@@ -10,7 +10,7 @@ Este proyecto permite realizar predicciones de:
 1. Clonar el repositorio o descargar la carpeta.
 2. Instalar dependencias:
 
-```bash
+
 pip install -r requirements.txt
 
 
