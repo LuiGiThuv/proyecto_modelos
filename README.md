@@ -10,9 +10,9 @@ Este proyecto permite realizar predicciones de:
 1. Clonar el repositorio o descargar la carpeta.
 2. Instalar dependencias:
 
-3. Por si acaso, en la esquina superior izquierda hay un selector de modelos.
-
 pip install -r requirements.txt
+
+3. Por si acaso, en la esquina superior izquierda hay un selector de modelos.
 
 ### Link de acceso directo en Streamlit
 
@@ -46,7 +46,6 @@ El umbral ideal para el modelo de predicción de diabetes es 0.42, determinado m
 El modelo de regresión lineal analiza el impacto de distintas variables en el costo del seguro médico.
 De acuerdo con los coeficientes del modelo y la importancia de las variables, los factores más influyentes son:
 
-Factor	Descripción	Influencia en el costo
 BMI (Índice de masa corporal)	Mide obesidad; valores altos aumentan el riesgo de enfermedades.	Alta
 Age (Edad)	A mayor edad, mayor costo por riesgo médico.	Alta
 Smoker (Fumador)	Es la variable más determinante. Los fumadores pagan en promedio 3 a 4 veces más.	Muy alta
@@ -64,20 +63,21 @@ Resultados principales:
 
 - Seguro Médico
 Variable	Importancia (%)
-Smoker	48.5
-BMI	22.1
-Age	20.4
-Children	6.3
-Region	2.7
+Smoker =	48.5
+BMI =	22.1
+Age =	20.4
+Children =	6.3
+Region	= 2.7
+
 - Diabetes
 Variable	Importancia (%)
-Glucose	34.2
-BMI	18.7
-Age	15.4
-BloodPressure	10.3
-Insulin	9.6
-Pregnancies	7.4
-SkinThickness	4.4
+Glucose =	34.2
+BMI =	18.7
+Age =	15.4
+BloodPressure =	10.3
+Insulin	= 9.6
+Pregnancies =	7.4
+SkinThickness =	4.4
 
  Conclusión:
 
@@ -100,6 +100,7 @@ Para la regresión lineal, normalizar y limpiar valores extremos mejora la preci
 Para la regresión logística, balancear las clases y ajustar el umbral optimiza el rendimiento.
 
  5) Explicar el contexto de los datos
+
  Insurance.csv
 
 Fuente: Kaggle - Medical Insurance Cost Prediction
